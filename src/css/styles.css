@@ -17,32 +17,12 @@ body {
   border-width:thin;
 }
 
-body > nav > a {
-  color: white;
-  margin-left: 1rem;
-  margin-top: .85rem;
-  display:inline-block;
-  font-weight: bold;
-}
-
-body > nav > a:link {
-  color:#FFF;
-  text-decoration: none;
-}
-
-body > nav > a:hover {
-  color:#E5E5E5;
-  text-decoration: none;
-}
-
-body > nav > a:active {
-  color:#E5E5E5;
-  text-decoration: none;
-}
-
-body > nav > a:visited {
-  color:#FFF;
-  text-decoration: none;
+.header-nav a > img {
+  height: 48px;
+  width: auto;
+  float:left;
+  margin-top: 1px;
+  margin-left: 2px;
 }
 
 .header-nav ul {
